@@ -11,95 +11,62 @@ public class sample {
 		        
 				// バイト型の宣言のみ。
 				byte b;
-				// 改行処理
-				String If = System.lineSeparator();
 				
 				// 短整数型の宣言のみ。
 				short sh;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 整数型の宣言のみ。
 				int i;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 長整数型の宣言のみ。
 				long l;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 単精度浮動小数点数型の宣言のみ。
 				float f;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 倍精度浮動小数点数型の宣言のみ。
 				double d;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 文字型の宣言のみ。
 				char c;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 文字列型の宣言のみ。
 				String s;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// ブーリアン型の宣言のみ。
 				boolean bo;
-				// 改行処理
-				If = System.lineSeparator();
 				
+				String If = System.lineSeparator();
+				System.out.println(If);
 			//2　1のそれぞれのローカル変数をローカル内でそれぞれの初期値を代入して初期化する
 				// バイト型の初期値を代入して初期化
 				b = 0;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 短整数型の初期値を代入して初期化
 				sh = 0;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 整数型の初期値を代入して初期化
 				i = 0;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 長整数型の初期値を代入して初期化
 				l =0L;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 単精度浮動小数点数型の初期値を代入して初期化
 				f =0.0f;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 倍精度浮動小数点数型の初期値を代入して初期化
 				d = 0.0d;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 文字型の初期値を代入して初期化
 				c = '\u0000';
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 文字列型の初期値を代入して初期化
 				s = null;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// ブーリアン型の初期値を代入して初期化
 				bo = false;
 			    // 改行処理
-				If = System.lineSeparator();
-				
+				System.out.println(If);
 			/*3 初期化をしたそれぞれの変数に下記の値を代入する		
 				・バイト型		10
 				・短整数型		100
@@ -115,65 +82,48 @@ public class sample {
 				b = 0;
 				// バイト型に10を代入
 				b = 10;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 短整数型を初期化
 				sh = 0;
 				// 短整数型に100を代入
 				sh = 100;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 整数型を初期化
 				i = 0;
 				// 整数型に1000を代入
 				i = 1000;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 長整数型を初期化
 				l =0L;
 				// 長整数型に10000を10000を代入
 				l = 10000;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 単精度浮動小数点数型を初期化
 				f =0.0f;
 				// 単精度浮動小数点数型に9.5を代入
 				f = 9.5F;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 倍精度浮動小数点数型を初期化
 				d = 0.0d;
 				// 倍精度浮動小数点数型に10.5を代入
 				d = 10.5;
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 文字型を初期化
 				c = '\u0000';
 				// 文字型にaを代入
 				c = 'a';
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 文字列型を初期化
 				s = null;
 				// 文字列型にハローを代入
 				s = "ハロー";
-                // 改行処理
-				If = System.lineSeparator();
 				
 				// ブーリアン型を初期化
 				bo = false;
 				// ブーリアン型にtrueを代入
 				bo = true;
 				// 改行処理
-				If = System.lineSeparator();
-				
+				System.out.println(If);
 			/*4 下記の通りにコンソール出力されるようにする
                 3で作成した変数を必ず使用する
                 11110
@@ -190,17 +140,13 @@ public class sample {
 				i = 1000;                         
 				l = 10000;
 				// 全て足した値を出力
-				System.out.println(b + sh + i + l);   
-				// 改行処理
-				If = System.lineSeparator();
+				System.out.println(b + sh + i + l);
 				
 				//単精度浮動小数点数型と倍精度浮動小数点数型を足して20を出力する。
 				f =9.5F;
 				d =10.5D;
 				// 全て足した値を出力
 				System.out.println(Math.round(f + d)); 
-				// 改行処理
-				If = System.lineSeparator();
 				
 				//文字型と文字列型とブーリアン型を結合して出力する。
 				c = 'a';
@@ -209,8 +155,6 @@ public class sample {
 				String Qes1_13 = c + s + bo;
 				// 全て足した値を出力
 				System.out.println(Qes1_13); 
-				// 改行処理
-				If = System.lineSeparator();
 				
 				//バイト型、短整数型、整数型、長整数型、単精度浮動小数点数型、倍精度浮動小数点数型を全て足して出力する。
 				b = 10;                         
@@ -221,8 +165,6 @@ public class sample {
 				d =10.5D;
 				// 全て足した値を出力
 				System.out.println(Math.round(b + sh + i + l + f + d)); 
-				// 改行処理
-				If = System.lineSeparator();
 				
 				//バイト型、短整数型、整数型、長整数型をかけて出力する。
 				b = 10;                         
@@ -231,16 +173,12 @@ public class sample {
 				l = 10000; 
 				// 全てかけた値を出力
 				System.out.println(b * sh * i * l); 
-				// 改行処理
-				If = System.lineSeparator();
 				
 				//10.5割る100をして出力する。
 				sh = 100;                       
 				d =10.5D;
 				// 割った値を出力
 				System.out.println(d / sh); 
-				// 改行処理
-				If = System.lineSeparator();
 				
 				//10引く100をして出力する。
 				b = 10;  
@@ -248,7 +186,7 @@ public class sample {
 				// 引いた値を出力
 				System.out.println(b - sh); 
 				// 改行処理
-				If = System.lineSeparator();
+				System.out.println(If);
 				
 			/*5 次のプログラムを実行すると「ハローJAVA2023」という結果が表示される。
 			   「ハローJAVA43」と表示するため、正しく動作するように修正する。
@@ -262,7 +200,7 @@ public class sample {
 				// 結果を出力
 				System.out.println("ハローJAVA"+(num+num1));
 				// 改行処理
-				If = System.lineSeparator();
+				System.out.println(If);
 				
 			/*6『』で囲われた人の情報を変数にして、formatの通りコンソールに出力する。
 				ローカル変数に代入し○○に入れる。
@@ -277,33 +215,25 @@ public class sample {
 				// 変数に山田太郎を代入
 				s= "山田太郎";
 				System.out.println("「"+ "初めまして"+ s +"です" + "」");
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 変数に18を代入
 				i =18;			
 				System.out.println("「"+ "年齢は"+ i +"歳です" + "」");
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 変数に170.5を代入
 				f = 170.5F;
 				System.out.println("「"+ "身長は"+ f +"cmです" + "」");
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 変数に62.2を代入
 				f = 62.2F;
 				System.out.println("「"+ "体重は"+ f +"kgです" + "」");
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 変数に寿司を代入
 				s = "寿司";
 				// 結果を出力
 				System.out.println("「"+ "好きな食べ物は"+ s +"です" + "」");
 				// 改行処理
-				If = System.lineSeparator();
+				System.out.println(If);
 				
 			/*7 6で作成した自己紹介を元に、BMIを出力する。
 				「BMIは○○です」
@@ -316,7 +246,7 @@ public class sample {
 				// 結果を出力
 				System.out.println("「"+ "BMIは"+(String.format("%.1f",(d / ((f / sh) * (f / sh))))+"です" +"」"));
 				// 改行処理
-				If = System.lineSeparator();
+				System.out.println(If);
 				
 			/*8 6で宣言した変数に再代入し下記の通りコンソールに出力する。
 				初めまして鈴木一郎です
@@ -331,46 +261,36 @@ public class sample {
 				a = "鈴木一郎";
 				// 結果を出力
 				System.out.println("初めまして"+ a +"です");
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 24を変数iに再代入する。
 				i = 18;
 				i = 24;
 				// 結果を出力
 				System.out.println("年齢は"+ i +"歳です");
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 168.5を変数fに再代入する。
 				f = 170.5F;
 				f = 168.5F;
 				// 結果を出力
 				System.out.println("身長は"+ f +"cmです");
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 64.2を変数dに再代入する。
 				d = 62.2;
 				d = 64.2;
 				// 結果を出力
 				System.out.println("体重は"+ d +"kgです");
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// オムライスを変数sに再代入する。
 				s = "寿司";
 				s = "オムライス";
 				// 結果を出力
 				System.out.println("好きな食べ物は"+ s +"です");
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// BMIを出力
 				sh = 100;
 			    System.out.println("BMIは"+(String.format("%.1f",(d / ((f / sh) * (f / sh))))+"です"));
 			    // 改行処理
-			    If = System.lineSeparator();
+			    System.out.println(If);
 			    
 		    /*9 8で使用した変数【年齢・身長・体重】の数値を和算で自己代入し、下記の通りコンソールに出力してください
 			    初めまして鈴木一郎です
@@ -384,39 +304,29 @@ public class sample {
 		        a = "鈴木一郎";
 		        // 結果を出力
 		        System.out.println("初めまして"+ a +"です");
-		        // 改行処理
-		        If = System.lineSeparator();
 		        
 		        // 変数iに24を自己代入して出力する
 		        i = 24;
 		        System.out.println("年齢は"+ i*2 +"歳です");
-		        // 改行処理
-		        If = System.lineSeparator();
 		        
 		        // 変数fに168.5を自己代入して出力する
 		        f =168.5F;
 		        System.out.println("身長は"+ f*2 +"cmです");
-		        // 改行処理
-		        If = System.lineSeparator();
 		        
 		        // 変数dに64.2を自己代入して出力する
 		        d =64.2;
 		        System.out.println("体重は"+d*2 +"kgです");
-		        // 改行処理
-		        If = System.lineSeparator();
 		        
 		        // 変数sにオムライスを宣言する
 		        s ="オムライス";
 		        // 結果を出力
 		        System.out.println("好きな食べ物は" + s +"です");
-		        // 改行処理
-		        If = System.lineSeparator();
 		        
 		        // BMIを出力
 		        sh = 100;
 			    System.out.println("BMIは"+(String.format("%.2f",(d / ((f / sh) * (f / sh)))/2)+"です"));
 			    // 改行処理
-			    If = System.lineSeparator();
+			    System.out.println(If);
 			    
 		    //10 8で使用した年齢が25歳以上ならtrueが出力されるようにする。
 		
@@ -429,7 +339,7 @@ public class sample {
 		        // 25歳以上ならtrueが出力されるようにする
 		        System.out.println(i >=25);
 		        // 改行処理
-		        If = System.lineSeparator();
+		        System.out.println(If);
 		        
 		    //11 8で使用した【年齢・身長・体重】を文字列型に型変換し繋げて出力する。
 		
@@ -441,8 +351,6 @@ public class sample {
 		        String str =String.valueOf(i);
 		        // 結果を出力
 		        System.out.println("年齢は"+ str +"歳です");
-		        // 改行処理
-		        If = System.lineSeparator();
 		        
 		        // 変数fに170.5を宣言する
 		        f = 170.5F;
@@ -452,8 +360,6 @@ public class sample {
 				String str1 =String.valueOf(f);
 				// 結果を出力
 				System.out.println("身長は"+ str1 +"cmです");
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 変数dに62.2を宣言する
 				d = 62.2;
@@ -463,13 +369,11 @@ public class sample {
 				String str2 =String.valueOf(d);
 				// 結果を出力
 				System.out.println("体重は"+ str2 +"kgです");
-			    // 改行処理
-				If = System.lineSeparator();
 				
 				// 年齢、身長、体重を繋げて出力
 				System.out.println(str + str1 + str2);
 				// 改行処理
-				If = System.lineSeparator();
+				System.out.println(If);
 				
 	        //12 11で変換した【年齢・身長】を整数型に変換して出力する。
 				
@@ -479,8 +383,6 @@ public class sample {
 				i =Integer.parseInt(str);
 				// 結果を出力
 				System.out.println("年齢は"+ i +"歳です");
-				// 改行処理
-				If = System.lineSeparator();
 				
 				// 変数str1に168.5を宣言
 				str1 ="168.5";
@@ -489,7 +391,7 @@ public class sample {
 				// 結果を出力
 				System.out.println("身長は"+ d +"cmです");
 				// 改行処理
-				If = System.lineSeparator();
+				System.out.println(If);
 				
 	        //13 12で変換した【年齢・身長】で【年齢が25もしくは身長が160以上】であればtrueを出力する。
 		
@@ -499,8 +401,6 @@ public class sample {
 		        i =Integer.parseInt(str);
 		        // 結果を出力
 		        System.out.println("年齢は"+ i +"歳です");
-		        // 改行処理
-		        If = System.lineSeparator();
 		        
 		        // 変数str1に168.5を宣言
 		        str1 ="168.5";
@@ -508,15 +408,13 @@ public class sample {
 		        d =Double.parseDouble(str1);
 		        // 結果を出力
 		        System.out.println("身長は"+ d +"cmです");
-		        // 改行処理
-		        If = System.lineSeparator();
 		        
 		        // 年齢が25もしくは身長が160以上であればtrueを出力する
 		        boolean result;
 		        result = (i ==25) || (d >=160);
 		        System.out.println(result); 
 		        //改行処理
-		        If = System.lineSeparator();
+		        System.out.println(If);
 		        
 	}
 
